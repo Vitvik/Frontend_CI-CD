@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 /* eslint-disable jsx-a11y/anchor-is-valid */
-const serverPort = 3001; 
-const serverURL = `http://localhost:${serverPort}/`;
+//const serverPort = 3001; 
+const serverURL = `http://k8s-vitvik-backendi-edcb51c7c8-857209425.eu-west-1.elb.amazonaws.com`;
+//`http://localhost:${serverPort}/`;
 
 class CustomerApp extends Component {
   constructor() {
